@@ -1,0 +1,14 @@
+Case 1 - 
+Primeira etapa - elencar os possíveis dados necessários, como: 
+- Número total de solicitações recebidas por dia por analista (imprimir eficiência do time)
+- Tempo médio de primeira resposta (traz tempo de espera para ser atendido, pode-se levar em consideração tempo se SLA bom como >30min)
+- Tempo médio de resolução do problema (finalização com problema resolvido 100%, mesmo que precise recorrer a outros times)
+- Classificação de satisfação do cliente (escala comum de 1 a 5 por exemplo)
+- Categorias de problemas (separar por bugs, solicitações de outras funcionalidades, problemas técnicos)
+
+Com isto, iniciaria algumas integrações testes, por exemplo, automatizar pesquisa de classificação de satisfação do cliente no Intercom - a partir do momento do ticket concluído mensagem dispararia automático e resposta seria integrada à classificação geral do ticket.
+Dentro do intercom as classificações seriam em Tags, podendo criar um chamado automatizado no Zendesk sempre que a tag for direcionada a chamados para o time técnico e o técnico responsável precisaria metrificar tempo médio de retorno a partir da descrição detalhada do problema ou bug.
+Uniria ambas as ferramentas (Intercom e Service Now) e automatizaria alguns relatórios chaves a partir dos dados anteriormente citados.
+Ex: Tendência de satisfação x Tempo de resolução do problema
+Ex: Tempo médio de resolução por categoria de problema
+Ex: Taxa de resolução no primeiro contato
