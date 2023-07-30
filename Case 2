@@ -1,0 +1,12 @@
+1. Preparação:
+Ter objetivos claros desta implementação, destacando os principais problemas que precisam ser resolvidas com a mudança e os benefícios esperados a curto e médio prazo.
+Analisar a estrutura atual para entender como a nova ferramenta se encaixará no ambiente que já existe e o que vai de fato precisar ser migrado - a partir disso já entender esforço a ser aplicado com essa migração.
+Entender os pontos focais de outros times nesse processo - TI, Data, BI
+2. Cronograma:
+Depois de entender com os pontos focais o processo, definir prazos realistas e com margens para cada etapa
+3. Testes:
+Selecionar uma parcela de dados a serem migrados com uma parcela de early adopters.
+A cada avanço de fase realizar testes de prova de conceito para verificar adequação aos objetivos e expectativas.
+4. Pós POC:
+Ver resultados, se forem como esperado, iniciar mobilização geral com treinamentos.
+Se não for como esperado, retomar com pontos focais outras possibilidades.
